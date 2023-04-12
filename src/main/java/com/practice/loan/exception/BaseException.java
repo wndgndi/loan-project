@@ -1,4 +1,4 @@
-package com.fastcampus.loan.exception;
+package com.practice.loan.exception;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
