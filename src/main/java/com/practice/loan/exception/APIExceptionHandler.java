@@ -1,7 +1,7 @@
-package com.fastcampus.loan.exception;
+package com.practice.loan.exception;
 
-import com.fastcampus.loan.dto.ResponseDTO;
-import com.fastcampus.loan.dto.ResultObject;
+import com.practice.loan.dto.ResponseDTO;
+import com.practice.loan.dto.ResultObject;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
