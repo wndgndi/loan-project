@@ -15,7 +15,7 @@ public class BalanceDTO implements Serializable {
     @Builder
     @Getter
     @Setter
-    public static class Request {
+    public static class CreateRequest {
 
         private Long applicationId;
 
