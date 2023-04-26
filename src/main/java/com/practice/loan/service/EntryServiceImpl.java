@@ -39,7 +39,7 @@ public class EntryServiceImpl implements EntryService {
 
         // 대출 잔고 관리
         balanceService.create(applicationId,
-            BalanceDTO.Request.builder()
+            BalanceDTO.CreateRequest.builder()
                 .entryAmount(request.getEntryAmount())
                 .build());
 
