@@ -11,7 +11,8 @@ public enum ResultType {
 
   // file = 4000
   NOT_EXIST("4001", "file not exist"),
-  SYSTEM_ERROR("9000", "system error");
+  SYSTEM_ERROR("9000", "system error"),
+  ALREADY_PAID("5000", "all paid off");
 
   private final String code;
   private final String desc;
